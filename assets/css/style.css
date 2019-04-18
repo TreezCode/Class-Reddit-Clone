@@ -1,15 +1,36 @@
 body {
-    min-height: 2000px;
-  }
-  
-  .content {
-    display: flex;
-    align-items: center;
-    border: 1px solid #e7e7e7;
-    border-radius: 5px;
-    margin-bottom: 10px;
-  }
-  
-  h3 {
-    margin: 0;
-  }
+  min-height: 2000px;
+  background: #ebebeb;
+}
+
+.content {
+  display: flex;
+  align-items: center;
+  border: 1px solid #e7e7e7;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+h3 {
+  margin: 0;
+}
+
+.navbar {
+  background: white;
+}
+
+.list-styled {
+  background: white;
+  margin-top: 1em;
+}
+
+.content {
+  margin: 0;
+  margin-left: 0;
+  padding: 0.5em 1em;
+  flex-wrap: nowrap;
+}
+
+.content-votes {
+  margin-right: 1em;
+}
